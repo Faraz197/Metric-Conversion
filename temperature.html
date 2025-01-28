@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <title>Temperature</title>
+</head>
+<style>
+  body{
+    background-image: linear-gradient(to top, #333a56 0%, #e8e8e8 100%);
+    }
+</style>
+<body>
+  <nav>
+    <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="./index.html"><img src="./images/logo.svg" alt=""></a></div>
+        <div class="nav-links">
+        <div class="sidebar-logo">
+            <span class="logo-img"><a href="./index.html"><img src="./images/logo.svg" alt=""></a></span>
+            <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+            <li>
+            <a href="./calculations.html">Calculations</a>
+            <i class='bx bxs-chevron-down bhindi tomato '></i>
+            <ul class="faraz bottle">
+                <li><a href="./area.html">Area</a></li>
+                <li><a href="./length.html">Length</a></li>
+                <li><a href="./volume.html">Volume</a></li>
+                <li><a href="./temperature.html">Temperature</a></li>
+                <li><a href="./mass.html">Mass</a></li>
+                <li><a href="./currency.html">Currency</a></li>
+            </ul>
+            </li>
+            <li><a href="./history.html">History</a></li>
+            <li><a href="./articles.html">Articles</a></li>
+            <li><a href="./about.html">About Us</a></li>          
+            <li><a href="./faq.html">FAQs</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+</nav>
+<div class="bread-crumbs">
+  <ul>
+    <li><a href="./index/index.html">
+        <i class="fa-solid fa-house"></i>
+      <p>Home</p>
+      </a></li>
+      <li><a href="./calculations.html">
+        <i class="fa-solid fa-calculator"></i>
+      <p>Calculations</p>
+      </a></li>
+      <li class="active"><a href="./temperature.html">
+        <i class="fa-solid fa-temperature-three-quarters"></i>
+      <p>Temperature</p>
+      </a></li>
+  </ul>
+</div>
+
+
+
+
+<div class="lengthtool">
+<div class="containerlt">
+  <header class="headerlt">
+    <h1>Temperature Conversion Tool</h1>
+    <p>Convert between different temperature units with ease!</p>
+  </header>
+  <main class="mainlt">
+    <div class="conversion-formlt">
+      <div class="input-grouplt">
+        <label for="inputValuel">Enter Value</label>
+        <input type="number" id="inputValuel" placeholder="Enter length" />
+      </div>
+      <div class="input-grouplt">
+        <label for="inputUnitl">From Unit</label>
+        <select id="inputUnitl">
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="celsius">Celsius</option>
+        </select>
+      </div>
+      <div class="input-grouplt">
+        <label for="outputUnitl">To Unit</label>
+        <select id="outputUnitl">
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="celsius">Celsius</option>
+        </select>
+      </div>
+      <button id="convertBtnl">Convert</button>
+      <div class="result">
+        <h2>Converted Value:</h2>
+        <p id="outputValuel">---</p>
+      </div>
+    </div>
+  </main>
+</div>
+</div>
+
+
+
+
+<footer class="mainfooter69">
+
+  <section class="topfooter69">
+      <div class="logobox69">
+              <h1 class="logotitle">Metric Conversion</h1>
+          <p>
+            "Convert units effortlessly with our accurate metric converter."
+          </p>
+      </div>
+
+      <div class="labelfear">
+          <h3 class="labelfear69">Quick Links</h3>
+          <ul class="menubox6969">
+              <li><a href="./index/index.html">Home</a></li>
+              <li><a href="./calculations.html">Calculations</a></li>
+              <li><a href="./faq.html">FAQs</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+      </div>
+
+      <div class="labelfear">
+          <h3 class="labelfear69">Contact</h3>
+          <ul class="menubox6969">
+              <li><a href="#">Karachi, Pakistan</a></li>
+              <li><a href="mailto:ourteam@gmail.com">ourteam@gmail.com</a></li>
+              <li><a href="tel:+023302199842">+92 3302199842</a></li>
+          </ul>
+      </div>
+
+      <div class="labelfear newsletterbox">
+          <h3 class="labelfear69">Newsletter</h3>
+          <p class="newslettermessage">
+              Subscribe to our newsletter to get
+              your news, update, and special offers
+          </p>
+          <form class="inputbox69">
+            <input class="emailinput69 redgreen" placeholder="Enter your email" type="email" name="email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+            <button class="sendbtn69" type="submit">
+                <i class='bx bxs-send'></i>
+            </button>
+        </form>
+      </div>
+
+  </section>
+  
+  <section class="bottomfooter">
+
+      <p class="copyrighttxt69">
+          © 2024 Metric Conversion. All Rights Reserved.
+      </p>
+      <div class="socialmedia">
+        <ul class="hell">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f icon"></i>    </a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter icon"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+          <li>
+            <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+        </ul>
+      </div>
+
+  </section>
+
+</footer>
+      
+      
+
+
+
+
+
+
+<script>
+  document.getElementById('convertBtnl').addEventListener('click', () => {
+      const inputValue = parseFloat(document.getElementById('inputValuel').value);
+      const inputUnit = document.getElementById('inputUnitl').value;
+      const outputUnit = document.getElementById('outputUnitl').value;
+  
+      if (isNaN(inputValue)) {
+          alert('Please enter a valid number.');
+          return;
+      }
+  
+      let convertedValue;
+      if (inputUnit === "fahrenheit" && outputUnit === "celsius") {
+          convertedValue = (inputValue - 32) * 5 / 9; // Fixed to use inputValue
+      } else if (inputUnit === "celsius" && outputUnit === "fahrenheit") {
+          convertedValue = (inputValue * 9 / 5) + 32; // Fixed to use inputValue
+      } else {
+          convertedValue = inputValue; // Same unit
+      }
+  
+      document.getElementById('outputValuel').textContent = `${convertedValue.toFixed(1)} ° ${outputUnit[0].toUpperCase() + outputUnit.slice(1)}`;
+  });
+</script>
+
+      
+      
+</body>
+<script src="./javascript/script.js"></script>
+</html>
